@@ -3,7 +3,7 @@ QRadar scripts to import event mappings from a CSV file
 
 This is an unsupported demo script. Use it at your own risk and test it in a non-production environment
 
-##Usage:
+## Usage:
 
 1. Use DSMEventMappingTemplate.xlsx to create a new CSV file with the mapping data
 1. If this is the first time you run the script, get server certificates using this command
