@@ -1,0 +1,29 @@
+# this script allows you to extract a CSV list of your currently customized Event Mappings with the associated QIDs
+
+# psql -U qradar
+
+-- run this query to export 
+copy (
+select
+        d.devicetypeid                  as "Log Source Type ID",
+        s.devicetypedescription         as "Log Source Type",
+        d.deviceeventcategory           as "Event Category",
+        d.deviceeventid                 as "Event ID",
+        q.qid                           as "QID",
+        q.qname                         as "QID Name",
+        q.qdescription                  as "QID Description",
+        q.severity                      as "Severity",
+        q.lowlevelcategory              as "Low Level Category ID",
+        c1.name_i18n_key                as "Low Level Category",
+        c2.name_i18n_key                as "High Level Category"
+from
+        dsmevent d
+        left join qidmap q ON qidmapid = q.id
+        left join sensordevicetype s on d.devicetypeid = s.id
+        left join category_type c1 on q.lowlevelcategory = c1.id
+        left join category_type c2 on c1.parent_id = c2.id
+where
+        customevent = true
+) To '/tmp/customizations.csv' With CSV DELIMITER ',' HEADER;
+
+# \q to exit psql

@@ -1,0 +1,2 @@
+Log Source Type,Log Source Type ID,Event Category,Event ID,QID,QID Name,QID Description,Severity,Low Level Category ID,Low Level Category,High Level Category
+Custom Log Source Type,,MSS,SessionStart,,Session Start,Network session start,,4007,Firewall Session Opened,Access

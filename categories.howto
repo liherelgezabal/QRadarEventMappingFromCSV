@@ -1,0 +1,5 @@
+# use categories.txt file to find the Low Level Category ID appropriate for your QID events
+# this file is obtained using: /opt/qradar/bin/qidmap_cli.sh -l > categories.txt
+
+cat categories.txt | grep -i FindThisText
+

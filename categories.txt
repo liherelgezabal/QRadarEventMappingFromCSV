@@ -1,0 +1,1276 @@
+id|name|parent|
+1001|Unknown Form of Recon|Recon|
+1002|Application Query|Recon|
+1003|Host Query|Recon|
+1004|Network Sweep|Recon|
+1005|Mail Reconnaissance|Recon|
+1006|Windows Reconnaissance|Recon|
+1007|Portmap / RPC Request|Recon|
+1008|Host Port Scan|Recon|
+1009|RPC Dump|Recon|
+1010|DNS Reconnaissance|Recon|
+1011|Misc Recon Event|Recon|
+1012|Web Reconnaissance|Recon|
+1013|Database Reconnaissance|Recon|
+1014|ICMP Reconnaissance|Recon|
+1015|UDP Reconnaissance|Recon|
+1016|SNMP Reconnaissance|Recon|
+1017|ICMP Host Query|Recon|
+1018|UDP Host Query|Recon|
+1019|NMAP Reconnaissance|Recon|
+1020|TCP Reconnaissance|Recon|
+1021|Unix Reconnaissance|Recon|
+1022|FTP Reconnaissance|Recon|
+2001|Unknown DoS Attack|DOS|
+2002|ICMP DoS|DOS|
+2003|TCP DoS|DOS|
+2004|UDP DoS|DOS|
+2005|DNS Service DoS|DOS|
+2006|Web Service DoS|DOS|
+2007|Mail Service DoS|DOS|
+2008|Distributed DoS|DOS|
+2009|Misc DoS|DOS|
+2010|Unix DOS|DOS|
+2011|Windows DoS|DOS|
+2012|Database DoS|DOS|
+2013|FTP DoS|DOS|
+2014|Infrastructure DoS|DOS|
+2015|Telnet DoS|DOS|
+2016|Brute force login|DOS|
+2017|High Rate TCP DoS|DOS|
+2018|High Rate UDP DoS|DOS|
+2019|High Rate ICMP DoS|DOS|
+2020|High Rate DoS|DOS|
+2021|Medium Rate TCP DoS|DOS|
+2022|Medium Rate UDP DoS|DOS|
+2023|Medium Rate ICMP DoS|DOS|
+2024|Medium Rate DoS|DOS|
+2025|Low Rate TCP DoS|DOS|
+2026|Low Rate UDP DoS|DOS|
+2027|Low Rate ICMP DoS|DOS|
+2028|Low Rate DoS|DOS|
+2029|Distributed High Rate TCP DoS|DOS|
+2030|Distributed High Rate UDP DoS|DOS|
+2031|Distributed High Rate ICMP DoS|DOS|
+2032|Distributed High Rate DoS|DOS|
+2033|Distributed Medium Rate TCP DoS|DOS|
+2034|Distributed Medium Rate UDP DoS|DOS|
+2035|Distributed Medium Rate ICMP DoS|DOS|
+2036|Distributed Medium Rate DoS|DOS|
+2037|Distributed Low Rate TCP DoS|DOS|
+2038|Distributed Low Rate UDP DoS|DOS|
+2039|Distributed Low Rate ICMP DoS|DOS|
+2040|Distributed Low Rate DoS|DOS|
+2041|High Rate TCP Scan|DOS|
+2042|High Rate UDP Scan|DOS|
+2043|High Rate ICMP Scan|DOS|
+2044|High Rate Scan|DOS|
+2045|Medium Rate TCP Scan|DOS|
+2046|Medium Rate UDP Scan|DOS|
+2047|Medium Rate ICMP Scan|DOS|
+2048|Medium Rate Scan|DOS|
+2049|Low Rate TCP Scan|DOS|
+2050|Low Rate UDP Scan|DOS|
+2051|Low Rate ICMP Scan|DOS|
+2052|Low Rate Scan|DOS|
+2053|VoIP DoS|DOS|
+2054|Flood|DOS|
+2055|TCP Flood|DOS|
+2056|UDP Flood|DOS|
+2057|ICMP Flood|DOS|
+2058|SYN Flood|DOS|
+2059|URG Flood|DOS|
+2060|SYN URG Flood|DOS|
+2061|SYN FIN Flood|DOS|
+2062|SYN ACK Flood|DOS|
+3001|Unknown Authentication|Authentication|
+3002|Host Login Succeeded|Authentication|
+3003|Host Login Failed|Authentication|
+3004|Misc Login Succeeded|Authentication|
+3005|Misc Login Failed|Authentication|
+3006|Privilege Escalation Failed|Authentication|
+3007|Privilege Escalation Succeeded|Authentication|
+3008|Mail Service Login Succeeded|Authentication|
+3009|Mail Service Login Failed|Authentication|
+3010|Auth Server Login Failed|Authentication|
+3011|Auth Server Login Succeeded|Authentication|
+3012|Web Service Login Succeeded|Authentication|
+3013|Web Service Login Failed|Authentication|
+3014|Admin Login Successful|Authentication|
+3015|Admin Login Failure|Authentication|
+3016|Suspicious Username|Authentication|
+3017|Login with username/password defaults successful|Authentication|
+3018|Login with username/password defaults failed|Authentication|
+3019|FTP Login Succeeded|Authentication|
+3020|FTP Login Failed|Authentication|
+3021|SSH Login Succeeded|Authentication|
+3022|SSH Login Failed|Authentication|
+3023|User Right Assigned|Authentication|
+3024|User Right Removed|Authentication|
+3025|Trusted Domain Added|Authentication|
+3026|Trusted Domain Removed|Authentication|
+3027|System Security Access Granted|Authentication|
+3028|System Security Access Removed|Authentication|
+3029|Policy Added|Authentication|
+3030|Policy Change|Authentication|
+3031|User Account Added|Authentication|
+3032|User Account Changed|Authentication|
+3033|Password Change Failed|Authentication|
+3034|Password Change Succeeded|Authentication|
+3035|User Account Removed|Authentication|
+3036|Group Member Added|Authentication|
+3037|Group Member Removed|Authentication|
+3038|Group Added|Authentication|
+3039|Group Changed|Authentication|
+3040|Group Removed|Authentication|
+3041|Computer Account Added|Authentication|
+3042|Computer Account Changed|Authentication|
+3043|Computer Account Removed|Authentication|
+3044|Remote Access Login Succeeded|Authentication|
+3045|Remote Access Login Failed|Authentication|
+3046|General Authentication Successful|Authentication|
+3047|General Authentication Failed|Authentication|
+3048|Telnet Login Succeeded|Authentication|
+3049|Telnet Login Failed|Authentication|
+3050|Suspicious Password|Authentication|
+3051|Samba Login Succeeded|Authentication|
+3052|Samba Login Failed|Authentication|
+3053|Auth Server Session Opened|Authentication|
+3054|Auth Server Session Closed|Authentication|
+3055|Firewall Session Closed|Authentication|
+3056|Host Logout|Authentication|
+3057|Misc Logout|Authentication|
+3058|Auth Server Logout|Authentication|
+3059|Web Service Logout|Authentication|
+3060|Admin Logout|Authentication|
+3061|FTP Logout|Authentication|
+3062|SSH Logout|Authentication|
+3063|Remote Access Logout|Authentication|
+3064|Telnet Logout|Authentication|
+3065|Samba Logout|Authentication|
+3066|VoIP Login Succeeded|Authentication|
+3067|VoIP Login Failed|Authentication|
+3068|VoIP Logout|Authentication|
+3069|VoIP Session Initiated|Authentication|
+3070|VoIP Session Terminated|Authentication|
+3071|SSH Session Started|Authentication|
+3072|SSH Session Finished|Authentication|
+3073|Admin Session Started|Authentication|
+3074|Admin Session Finished|Authentication|
+3075|Database Login Succeeded|Authentication|
+3076|Database Login Failed|Authentication|
+3077|IKE Authentication Failed|Authentication|
+3078|IKE Authentication Succeeded|Authentication|
+3079|IKE Session Started|Authentication|
+3080|IKE Session Ended|Authentication|
+3081|IKE Error|Authentication|
+3082|IKE Status|Authentication|
+3083|RADIUS Session Started|Authentication|
+3084|RADIUS Session Ended|Authentication|
+3085|RADIUS Session Denied|Authentication|
+3086|RADIUS Session Status|Authentication|
+3087|RADIUS Authentication Failed|Authentication|
+3088|RADIUS Authentication Succeeded|Authentication|
+3089|TACACS Session Started|Authentication|
+3090|TACACS Session Ended|Authentication|
+3091|TACACS Session Denied|Authentication|
+3092|TACACS Session Status|Authentication|
+3093|TACACS Authentication Succeeded|Authentication|
+3094|TACACS Authentication Failed|Authentication|
+3095|Deauthenticating host succeeded|Authentication|
+3096|Deauthenticating host failed|Authentication|
+3097|Station authentication succeeded|Authentication|
+3098|Station authentication failed|Authentication|
+3099|Station association succeeded|Authentication|
+3100|Station association failed|Authentication|
+3101|Station reassociation succeeded|Authentication|
+3102|Station reassociation failed|Authentication|
+3103|Disassociating host succeeded|Authentication|
+3104|Disassociating host failed|Authentication|
+3105|SA Error|Authentication|
+3106|SA Creation Failure|Authentication|
+3107|SA Established|Authentication|
+3108|SA Rejected|Authentication|
+3109|Deleting SA|Authentication|
+3110|Creating SA|Authentication|
+3111|Certificate Mismatch|Authentication|
+3112|Credentials Mismatch|Authentication|
+3113|Admin Login Attempt|Authentication|
+3114|User Login Attempt|Authentication|
+3115|User Login Success|Authentication|
+3116|User Login Failure|Authentication|
+3117|SFTP Login Succeeded|Authentication|
+3118|SFTP Login Failed|Authentication|
+3119|SFTP Logout|Authentication|
+3120|Identity Granted|Authentication|
+3121|Identity Removed|Authentication|
+3122|Identity Revoked|Authentication|
+3123|Policy Removed|Authentication|
+3124|User Account Locked|Authentication|
+3125|User Account Unlocked|Authentication|
+3126|User Account Expired|Authentication|
+4001|Unknown Network Communication Event|Access|
+4002|Firewall Permit|Access|
+4003|Firewall Deny|Access|
+4004|Flow Context Response|Access|
+4005|Misc Network Communication Event|Access|
+4006|IPS Deny|Access|
+4007|Firewall Session Opened|Access|
+4008|Firewall Session Closed|Access|
+4009|Dynamic Address Translation Successful|Access|
+4010|No Translation Group Found|Access|
+4011|Misc Authorization|Access|
+4012|ACL Permit|Access|
+4013|ACL Deny|Access|
+4014|Access Permitted|Access|
+4015|Access Denied|Access|
+4016|Session Opened|Access|
+4017|Session Closed|Access|
+4018|Session Reset|Access|
+4019|Session Terminated|Access|
+4020|Session Denied|Access|
+4021|Session In Progress|Access|
+4022|Session Delayed|Access|
+4023|Session Queued|Access|
+4024|Session Inbound|Access|
+4025|Session Outbound|Access|
+4026|Unauthorized Access Attempt|Access|
+4027|Misc Application Action Allowed|Access|
+4028|Misc Application Action Denied|Access|
+4029|Database Action Allowed|Access|
+4030|Database Action Denied|Access|
+4031|FTP Action Allowed|Access|
+4032|FTP Action Denied|Access|
+4033|Object Cached|Access|
+4034|Object Not Cached|Access|
+4035|Rate Limiting|Access|
+4036|No Rate Limiting|Access|
+4037|PII Access Permitted|Access|
+4038|PII Access Denied|Access|
+4039|IPS Permit|Access|
+5001|Unknown Exploit Attack|Exploit|
+5002|Buffer Overflow|Exploit|
+5003|DNS Exploit|Exploit|
+5004|Telnet Exploit|Exploit|
+5005|Linux Exploit|Exploit|
+5006|Unix Exploit|Exploit|
+5007|Windows Exploit|Exploit|
+5008|Mail Exploit|Exploit|
+5009|Infrastructure Exploit|Exploit|
+5010|Misc Exploit|Exploit|
+5011|Web Exploit|Exploit|
+5012|Session Hijack|Exploit|
+5013|Worm Active|Exploit|
+5014|Password Guess/Retrieve|Exploit|
+5015|FTP Exploit|Exploit|
+5016|RPC Exploit|Exploit|
+5017|SNMP Exploit|Exploit|
+5018|NOOP Exploit|Exploit|
+5019|Samba Exploit|Exploit|
+5020|SSH Exploit|Exploit|
+5021|Database Exploit|Exploit|
+5022|ICMP Exploit|Exploit|
+5023|UDP Exploit|Exploit|
+5024|Browser Exploit|Exploit|
+5025|DHCP Exploit|Exploit|
+5026|Remote Access Exploit|Exploit|
+5027|ActiveX Exploit|Exploit|
+5028|SQL Injection|Exploit|
+5029|Cross Site Scripting|Exploit|
+5030|Format String Vulnerability|Exploit|
+5031|Input Validation Exploit|Exploit|
+5032|Remote Code Execution|Exploit|
+5033|Memory Corruption|Exploit|
+5034|Command Execution|Exploit|
+5035|Code Injection|Exploit|
+5036|Replay Attack|Exploit|
+6001|Unknown Malware|Malware|
+6002|Backdoor Detected|Malware|
+6003|Hostile Mail Attachment|Malware|
+6004|Malicious Software|Malware|
+6005|Hostile Software Download|Malware|
+6006|Virus Detected|Malware|
+6007|Misc Malware|Malware|
+6008|Trojan Detected|Malware|
+6009|Spyware Detected|Malware|
+6010|Content Scan|Malware|
+6011|Content Scan Failed|Malware|
+6012|Content Scan Successful|Malware|
+6013|Content Scan Inprogress|Malware|
+6014|Keylogger|Malware|
+6015|Adware Detected|Malware|
+6016|Quarantine Successful|Malware|
+6017|Quarantine Failed|Malware|
+6018|Malware Infection|Malware|
+6019|Remove Successful|Malware|
+6020|Remove Failed|Malware|
+7001|Unknown Suspicious Event|Suspicious Activity 
+7002|Suspicious Pattern Detected|Suspicious Activity 
+7003|Content Modified By Firewall|Suspicious Activity 
+7004|Invalid Command or Data|Suspicious Activity 
+7005|Suspicious Packet|Suspicious Activity 
+7006|Suspicious Activity|Suspicious Activity 
+7007|Suspicious File Name|Suspicious Activity 
+7008|Suspicious Port Activity|Suspicious Activity 
+7009|Suspicious Routing|Suspicious Activity 
+7010|Potential Web Vulnerability|Suspicious Activity 
+7011|Unknown Evasion Event|Suspicious Activity 
+7012|IP Spoof|Suspicious Activity 
+7013|IP Fragmentation|Suspicious Activity 
+7014|Overlapping IP Fragments|Suspicious Activity 
+7015|IDS Evasion|Suspicious Activity 
+7016|DNS Protocol Anomaly|Suspicious Activity 
+7017|FTP Protocol Anomaly|Suspicious Activity 
+7018|Mail Protocol Anomaly|Suspicious Activity 
+7019|Routing Protocol Anomaly|Suspicious Activity 
+7020|Web Protocol Anomaly|Suspicious Activity 
+7021|SQL Protocol Anomaly|Suspicious Activity 
+7022|Executable Code Detected|Suspicious Activity 
+7023|Misc Suspicious Event|Suspicious Activity 
+7024|Information Leak|Suspicious Activity 
+7025|Potential Mail Vulnerability|Suspicious Activity 
+7026|Potential Version Vulnerability|Suspicious Activity 
+7027|Potential FTP Vulnerability|Suspicious Activity 
+7028|Potential SSH Vulnerability|Suspicious Activity 
+7029|Potential DNS Vulnerability|Suspicious Activity 
+7030|Potential SMB Vulnerability|Suspicious Activity 
+7031|Potential Database Vulnerability|Suspicious Activity 
+7032|IP Protocol Anomaly|Suspicious Activity 
+7033|Suspicious IP Address|Suspicious Activity 
+7034|Invalid IP Protocol Usage|Suspicious Activity 
+7035|Invalid Protocol|Suspicious Activity 
+7036|Suspicious Windows Events|Suspicious Activity 
+7037|Suspicious ICMP Activity|Suspicious Activity 
+7038|Potential NFS Vulnerability|Suspicious Activity 
+7039|Potential NNTP Vulnerability|Suspicious Activity 
+7040|Potential RPC Vulnerability|Suspicious Activity 
+7041|Potential Telnet Vulnerability|Suspicious Activity 
+7042|Potential SNMP Vulnerability|Suspicious Activity 
+7043|Illegal TCP Flag Combination|Suspicious Activity 
+7044|Suspicious TCP Flag Combination|Suspicious Activity 
+7045|Illegal ICMP Protocol Usage|Suspicious Activity 
+7046|Suspicious ICMP Protocol Usage|Suspicious Activity 
+7047|Illegal ICMP Type|Suspicious Activity 
+7048|Illegal ICMP Code|Suspicious Activity 
+7049|Suspicious ICMP Type|Suspicious Activity 
+7050|Suspicious ICMP Code|Suspicious Activity 
+7051|TCP Port 0|Suspicious Activity 
+7052|UDP Port 0|Suspicious Activity 
+7053|Hostile IP|Suspicious Activity 
+7054|Watch List IP|Suspicious Activity 
+7055|Known Offender IP|Suspicious Activity 
+7056|RFC 1918 (private) IP|Suspicious Activity 
+7057|Potential VoIP Vulnerability|Suspicious Activity 
+7058|Blacklist Address|Suspicious Activity 
+7059|Watchlist Address|Suspicious Activity 
+7060|Darknet Address|Suspicious Activity 
+7061|Botnet Address|Suspicious Activity 
+7062|Suspicious Address|Suspicious Activity 
+7063|Bad Content|Suspicious Activity 
+7064|Invalid Cert|Suspicious Activity 
+7065|User Activity|Suspicious Activity 
+7066|Suspicious Protocol Usage|Suspicious Activity 
+7067|Suspicious BGP Activity|Suspicious Activity 
+7068|Route Poisoning|Suspicious Activity 
+7069|ARP Poisoning|Suspicious Activity 
+7070|Rogue device detected|Suspicious Activity 
+7071|Government Agency Address|Suspicious Activity 
+8001|Unknown System Event|System|
+8002|System Boot|System|
+8003|System Configuration|System|
+8004|System Halt|System|
+8005|System Failure|System|
+8006|System Status|System|
+8007|System Error|System|
+8008|Misc System Event|System|
+8009|Service Started|System|
+8010|Service Stopped|System|
+8011|Service Failure|System|
+8012|Successful Registry Modification|System|
+8013|Successful Host-Policy Modification|System|
+8014|Successful File Modification|System|
+8015|Successful Stack Modification|System|
+8016|Successful Application Modification|System|
+8017|Successful Configuration Modification|System|
+8018|Successful Service Modification|System|
+8019|Failed Registry Modification|System|
+8020|Failed Host-Policy Modification|System|
+8021|Failed File Modification|System|
+8022|Failed Stack Modification|System|
+8023|Failed Application Modification|System|
+8024|Failed Configuration Modification|System|
+8025|Failed Service Modification|System|
+8026|Registry Addition|System|
+8027|Host-Policy Created|System|
+8028|File Created|System|
+8029|Application Installed|System|
+8030|Service Installed|System|
+8031|Registry Deletion|System|
+8032|Host-Policy Deleted|System|
+8033|File Deleted|System|
+8034|Application Uninstalled|System|
+8035|Service Uninstalled|System|
+8036|System Informational|System|
+8037|System Action Allow|System|
+8038|System Action Deny|System|
+8039|Cron|System|
+8040|Cron Status|System|
+8041|Cron Failed|System|
+8042|Cron Successful|System|
+8043|Daemon|System|
+8044|Daemon Status|System|
+8045|Daemon Failed|System|
+8046|Daemon Successful|System|
+8047|Kernel|System|
+8048|Kernel Status|System|
+8049|Kernel Failed|System|
+8050|Kernel Successful|System|
+8051|Authentication|System|
+8052|Information|System|
+8053|Notice|System|
+8054|Warning|System|
+8055|Error|System|
+8056|Critical|System|
+8057|Debug|System|
+8058|Messages|System|
+8059|Privilege Access|System|
+8060|Alert|System|
+8061|Emergency|System|
+8062|SNMP Status|System|
+8063|FTP Status|System|
+8064|NTP Status|System|
+8065|Access point radio failure|System|
+8066|Encryption protocol configuration mismatch|System|
+8067|Client device or authentication server misconfigured|System|
+8068|Hot standby enable failed|System|
+8069|Hot standby disable failed|System|
+8070|Hot standby enabled successfully|System|
+8071|Hot standby association lost|System|
+8072|Mainmode Initiation Failure|System|
+8073|Mainmode Initiation Succeeded|System|
+8074|Mainmode Status|System|
+8075|Quickmode Initiation Failure|System|
+8076|Quickmode Initiation Succeeded|System|
+8077|Quickmode Status|System|
+8078|Invalid License|System|
+8079|License Expired|System|
+8080|New License Applied|System|
+8081|License Error|System|
+8082|License Status|System|
+8083|Configuration Error|System|
+8084|Service Disruption|System|
+8085|License Exceeded|System|
+8086|Performance Status|System|
+8087|Performance Degradation|System|
+8088|Misconfiguration|System|
+9001|Unknown Policy Violation|Policy|
+9002|Web Policy Violation|Policy|
+9003|Remote Access Policy Violation|Policy|
+9004|IRC/IM Policy Violation|Policy|
+9005|P2P Policy Violation|Policy|
+9006|IP Access Policy Violation|Policy|
+9007|Application Policy Violation|Policy|
+9008|Database Policy Violation|Policy|
+9009|Network Threshold Policy Violation|Policy|
+9010|Porn Policy Violation|Policy|
+9011|Games Policy Violation|Policy|
+9012|Misc Policy Violation|Policy|
+9013|Compliance Policy Violation|Policy|
+9014|Mail Policy Violation|Policy|
+9015|IRC Policy Violation|Policy|
+9016|IM Policy Violation|Policy|
+9017|VoIP Policy Violation|Policy|
+9018|Succeeded|Policy|
+9019|Failed|Policy|
+9020|Data Loss Prevention Policy Violation|Policy|
+9021|Watchlist Object|Policy|
+9022|Web Policy Allow|Policy|
+10001|Unknown|Unknown|
+10002|Unknown Snort Event|Unknown|
+10003|Unknown Dragon Event|Unknown|
+10004|Unknown Pix Firewall Event|Unknown|
+10005|Unknown Tipping Point Event|Unknown|
+10006|Unknown Windows Auth Server Event|Unknown|
+10007|Unknown Nortel Event|Unknown|
+10008|Unknown Generic Log Event|Unknown|
+10009|Stored|Unknown|
+11001|Behavioral|Time Series|
+11002|Threshold|Time Series|
+11003|Anomaly|Time Series|
+12001|Unknown CRE Event|CRE|
+12002|Single Event Rule Match|CRE|
+12003|Event Sequence Rule Match|CRE|
+12004|Cross-Offense Event Sequence Rule Match|CRE|
+12005|Offense Rule Match|CRE|
+13001|Unknown Potential Exploit Attack|Potential Exploit|
+13002|Potential Buffer Overflow|Potential Exploit|
+13003|Potential DNS Exploit|Potential Exploit|
+13004|Potential Telnet Exploit|Potential Exploit|
+13005|Potential Linux Exploit|Potential Exploit|
+13006|Potential Unix Exploit|Potential Exploit|
+13007|Potential Windows Exploit|Potential Exploit|
+13008|Potential Mail Exploit|Potential Exploit|
+13009|Potential Infrastructure Exploit|Potential Exploit|
+13010|Potential Misc Exploit|Potential Exploit|
+13011|Potential Web Exploit|Potential Exploit|
+13012|Potential Botnet Connection|Potential Exploit|
+13013|Potential Worm Activity|Potential Exploit|
+14001|Unidirectional Flow|Flow|
+14002|Low number of Unidirectional Flows|Flow|
+14003|Medium number of Unidirectional Flows|Flow|
+14004|High number of Unidirectional Flows|Flow|
+14005|Unidirectional TCP Flow|Flow|
+14006|Low number of Unidirectional TCP Flows|Flow|
+14007|Medium number of Unidirectional TCP Flows|Flow|
+14008|High number of Unidirectional TCP Flows|Flow|
+14009|Unidirectional ICMP Flow|Flow|
+14010|Low number of Unidirectional ICMP Flows|Flow|
+14011|Medium number of Unidirectional ICMP Flows|Flow|
+14012|High number of Unidirectional ICMP Flows|Flow|
+14013|Suspicious ICMP Flow|Flow|
+14014|Suspicious UDP Flow|Flow|
+14015|Suspicious TCP Flow|Flow|
+14016|Suspicious Flow|Flow|
+14017|Empty Packet Flows|Flow|
+14018|Low number of Empty Packet Flows|Flow|
+14019|Medium number of Empty Packet Flows|Flow|
+14020|High number of Empty Packet Flows|Flow|
+14021|Large Payload Flows|Flow|
+14022|Low number of Large Payload Flows|Flow|
+14023|Medium number of Large Payload Flows|Flow|
+14024|High number of Large Payload Flows|Flow|
+14025|One Attacker to Many Target Flow|Flow|
+14026|Many Attackers to one Target Flow|Flow|
+14027|Unknown Flow|Flow|
+14028|Netflow Record|Flow|
+14029|QFlow Record|Flow|
+14030|SFlow Record|Flow|
+14031|Packeteer Record|Flow|
+14032|Misc flow|Flow|
+14033|Large Data Transfer|Flow|
+14034|Large Data Transfer outbound|Flow|
+14035|VoIP Flows|Flow|
+15001|Custom Sentry Low|User Defined|
+15002|Custom Sentry Medium|User Defined|
+15003|Custom Sentry High|User Defined|
+15004|Custom Sentry 1|User Defined|
+15005|Custom Sentry 2|User Defined|
+15006|Custom Sentry 3|User Defined|
+15007|Custom Sentry 4|User Defined|
+15008|Custom Sentry 5|User Defined|
+15009|Custom Sentry 6|User Defined|
+15010|Custom Sentry 7|User Defined|
+15011|Custom Sentry 8|User Defined|
+15012|Custom Sentry 9|User Defined|
+15013|Custom Policy Low|User Defined|
+15014|Custom Policy Medium|User Defined|
+15015|Custom Policy High|User Defined|
+15016|Custom Policy 1|User Defined|
+15017|Custom Policy 2|User Defined|
+15018|Custom Policy 3|User Defined|
+15019|Custom Policy 4|User Defined|
+15020|Custom Policy 5|User Defined|
+15021|Custom Policy 6|User Defined|
+15022|Custom Policy 7|User Defined|
+15023|Custom Policy 8|User Defined|
+15024|Custom Policy 9|User Defined|
+15025|Custom User Low|User Defined|
+15026|Custom User Medium|User Defined|
+15027|Custom User High|User Defined|
+15028|Custom User 1|User Defined|
+15029|Custom User 2|User Defined|
+15030|Custom User 3|User Defined|
+15031|Custom User 4|User Defined|
+15032|Custom User 5|User Defined|
+15033|Custom User 6|User Defined|
+15034|Custom User 7|User Defined|
+15035|Custom User 8|User Defined|
+15036|Custom User 9|User Defined|
+16001|SIM User Authentication|SIM Audit|
+16002|SIM Configuration Change|SIM Audit|
+16003|SIM User Action|SIM Audit|
+16004|Session Created|SIM Audit|
+16005|Session Destroyed|SIM Audit|
+16006|Admin Session Created|SIM Audit|
+16007|Admin Session Destroyed|SIM Audit|
+16008|Session Authentication Invalid|SIM Audit|
+16009|Session Authentication Expired|SIM Audit|
+16010|Risk Manager Configuration|SIM Audit|
+17001|New Host Discovered|VIS Host Discovery|
+17002|New OS Discovered|VIS Host Discovery|
+17003|New Port Discovered|VIS Host Discovery|
+17004|New Vuln Discovered|VIS Host Discovery|
+17005|Bulk Host Discovered|VIS Host Discovery|
+18001|Mail Opened|Application|
+18002|Mail Closed|Application|
+18003|Mail Reset|Application|
+18004|Mail Terminated|Application|
+18005|Mail Denied|Application|
+18006|Mail In Progress|Application|
+18007|Mail Delayed|Application|
+18008|Mail Queued|Application|
+18009|Mail Redirected|Application|
+18010|FTP Opened|Application|
+18011|FTP Closed|Application|
+18012|FTP Reset|Application|
+18013|FTP Terminated|Application|
+18014|FTP Denied|Application|
+18015|FTP In Progress|Application|
+18016|FTP Redirected|Application|
+18017|HTTP Opened|Application|
+18018|HTTP Closed|Application|
+18019|HTTP Reset|Application|
+18020|HTTP Terminated|Application|
+18021|HTTP Denied|Application|
+18022|HTTP In Progress|Application|
+18023|HTTP Delayed|Application|
+18024|HTTP Queued|Application|
+18025|HTTP Redirected|Application|
+18026|HTTP Proxy|Application|
+18027|HTTPS Opened|Application|
+18028|HTTPS Closed|Application|
+18029|HTTPS Reset|Application|
+18030|HTTPS Terminated|Application|
+18031|HTTPS Denied|Application|
+18032|HTTPS In Progress|Application|
+18033|HTTPS Delayed|Application|
+18034|HTTPS Queued|Application|
+18035|HTTPS Redirected|Application|
+18036|HTTPS Proxy|Application|
+18037|SSH Opened|Application|
+18038|SSH Closed|Application|
+18039|SSH Reset|Application|
+18040|SSH Terminated|Application|
+18041|SSH Denied|Application|
+18042|SSH In Progress|Application|
+18043|RemoteAccess Opened|Application|
+18044|RemoteAccess Closed|Application|
+18045|RemoteAccess Reset|Application|
+18046|RemoteAccess Terminated|Application|
+18047|RemoteAccess Denied|Application|
+18048|RemoteAccess In Progress|Application|
+18049|RemoteAccess Delayed|Application|
+18050|RemoteAccess Redirected|Application|
+18051|VPN Opened|Application|
+18052|VPN Closed|Application|
+18053|VPN Reset|Application|
+18054|VPN Terminated|Application|
+18055|VPN Denied|Application|
+18056|VPN In Progress|Application|
+18057|VPN Delayed|Application|
+18058|VPN Queued|Application|
+18059|VPN Redirected|Application|
+18060|RDP Opened|Application|
+18061|RDP Closed|Application|
+18062|RDP Reset|Application|
+18063|RDP Terminated|Application|
+18064|RDP Denied|Application|
+18065|RDP In Progress|Application|
+18066|RDP Redirected|Application|
+18067|FileTransfer Opened|Application|
+18068|FileTransfer Closed|Application|
+18069|FileTransfer Reset|Application|
+18070|FileTransfer Terminated|Application|
+18071|FileTransfer Denied|Application|
+18072|FileTransfer In Progress|Application|
+18073|FileTransfer Delayed|Application|
+18074|FileTransfer Queued|Application|
+18075|FileTransfer Redirected|Application|
+18076|DNS Opened|Application|
+18077|DNS Closed|Application|
+18078|DNS Reset|Application|
+18079|DNS Terminated|Application|
+18080|DNS Denied|Application|
+18081|DNS In Progress|Application|
+18082|DNS Delayed|Application|
+18083|DNS Redirected|Application|
+18084|Chat Opened|Application|
+18085|Chat Closed|Application|
+18086|Chat Reset|Application|
+18087|Chat Terminated|Application|
+18088|Chat Denied|Application|
+18089|Chat In Progress|Application|
+18090|Chat Redirected|Application|
+18091|Database Opened|Application|
+18092|Database Closed|Application|
+18093|Database Reset|Application|
+18094|Database Terminated|Application|
+18095|Database Denied|Application|
+18096|Database In Progress|Application|
+18097|Database Redirected|Application|
+18098|SMTP Opened|Application|
+18099|SMTP Closed|Application|
+18100|SMTP Reset|Application|
+18101|SMTP Terminated|Application|
+18102|SMTP Denied|Application|
+18103|SMTP In Progress|Application|
+18104|SMTP Delayed|Application|
+18105|SMTP Queued|Application|
+18106|SMTP Redirected|Application|
+18107|Auth Opened|Application|
+18108|Auth Closed|Application|
+18109|Auth Reset|Application|
+18110|Auth Terminated|Application|
+18111|Auth Denied|Application|
+18112|Auth In Progress|Application|
+18113|Auth Delayed|Application|
+18114|Auth Queued|Application|
+18115|Auth Redirected|Application|
+18116|P2P Opened|Application|
+18117|P2P Closed|Application|
+18118|P2P Reset|Application|
+18119|P2P Terminated|Application|
+18120|P2P Denied|Application|
+18121|P2P In Progress|Application|
+18122|Web Opened|Application|
+18123|Web Closed|Application|
+18124|Web Reset|Application|
+18125|Web Terminated|Application|
+18126|Web Denied|Application|
+18127|Web In Progress|Application|
+18128|Web Delayed|Application|
+18129|Web Queued|Application|
+18130|Web Redirected|Application|
+18131|Web Proxy|Application|
+18132|VoIP Opened|Application|
+18133|VoIP Closed|Application|
+18134|VoIP Reset|Application|
+18135|VoIP Terminated|Application|
+18136|VoIP Denied|Application|
+18137|VoIP In Progress|Application|
+18138|VoIP Delayed|Application|
+18139|VoIP Redirected|Application|
+18140|LDAP Session Started|Application|
+18141|LDAP Session Ended|Application|
+18142|LDAP Session Denied|Application|
+18143|LDAP Session Status|Application|
+18144|LDAP Authentication Failed|Application|
+18145|LDAP Authentication Succeeded|Application|
+18146|AAA Session Started|Application|
+18147|AAA Session Ended|Application|
+18148|AAA Session Denied|Application|
+18149|AAA Session Status|Application|
+18150|AAA Authentication Failed|Application|
+18151|AAA Authentication Succeeded|Application|
+18152|IPSec Authentication Failed|Application|
+18153|IPSec Authentication Succeeded|Application|
+18154|IPSec Session Started|Application|
+18155|IPSec Session Ended|Application|
+18156|IPSec Error|Application|
+18157|IPSec Status|Application|
+18158|IM Session Opened|Application|
+18159|IM Session Closed|Application|
+18160|IM Session Reset|Application|
+18161|IM Session Terminated|Application|
+18162|IM Session Denied|Application|
+18163|IM Session In Progress|Application|
+18164|IM Session Delayed|Application|
+18165|IM Session Redirected|Application|
+18166|Whois Session Opened|Application|
+18167|Whois Session Closed|Application|
+18168|Whois Session Reset|Application|
+18169|Whois Session Terminated|Application|
+18170|Whois Session Denied|Application|
+18171|Whois Session In Progress|Application|
+18172|Whois Session Redirected|Application|
+18173|Traceroute Session Opened|Application|
+18174|Traceroute Session Closed|Application|
+18175|Traceroute Session Denied|Application|
+18176|Traceroute Session In Progress|Application|
+18177|TN3270 Session Opened|Application|
+18178|TN3270 Session Closed|Application|
+18179|TN3270 Session Reset|Application|
+18180|TN3270 Session Terminated|Application|
+18181|TN3270 Session Denied|Application|
+18182|TN3270 Session In Progress|Application|
+18183|TFTP Session Opened|Application|
+18184|TFTP Session Closed|Application|
+18185|TFTP Session Reset|Application|
+18186|TFTP Session Terminated|Application|
+18187|TFTP Session Denied|Application|
+18188|TFTP Session In Progress|Application|
+18189|Telnet Session Opened|Application|
+18190|Telnet Session Closed|Application|
+18191|Telnet Session Reset|Application|
+18192|Telnet Session Terminated|Application|
+18193|Telnet Session Denied|Application|
+18194|Telnet Session In Progress|Application|
+18201|Syslog Session Opened|Application|
+18202|Syslog Session Closed|Application|
+18203|Syslog Session Denied|Application|
+18204|Syslog Session In Progress|Application|
+18205|SSL Session Opened|Application|
+18206|SSL Session Closed|Application|
+18207|SSL Session Reset|Application|
+18208|SSL Session Terminated|Application|
+18209|SSL Session Denied|Application|
+18210|SSL Session In Progress|Application|
+18211|SNMP Session Opened|Application|
+18212|SNMP Session Closed|Application|
+18213|SNMP Session Denied|Application|
+18214|SNMP Session In Progress|Application|
+18215|SMB Session Opened|Application|
+18216|SMB Session Closed|Application|
+18217|SMB Session Reset|Application|
+18218|SMB Session Terminated|Application|
+18219|SMB Session Denied|Application|
+18220|SMB Session In Progress|Application|
+18221|Streaming Media Session Opened|Application|
+18222|Streaming Media Session Closed|Application|
+18223|Streaming Media Session Reset|Application|
+18224|Streaming Media Session Terminated|Application|
+18225|Streaming Media Session Denied|Application|
+18226|Streaming Media Session In Progress|Application|
+18227|RUSERS Session Opened|Application|
+18228|RUSERS Session Closed|Application|
+18229|RUSERS Session Denied|Application|
+18230|RUSERS Session In Progress|Application|
+18231|RSH Session Opened|Application|
+18232|RSH Session Closed|Application|
+18233|RSH Session Reset|Application|
+18234|RSH Session Terminated|Application|
+18235|RSH Session Denied|Application|
+18236|RSH Session In Progress|Application|
+18237|RLOGIN Session Opened|Application|
+18238|RLOGIN Session Closed|Application|
+18239|RLOGIN Session Reset|Application|
+18240|RLOGIN Session Terminated|Application|
+18241|RLOGIN Session Denied|Application|
+18242|RLOGIN Session In Progress|Application|
+18243|REXEC Session Opened|Application|
+18244|REXEC Session Closed|Application|
+18245|REXEC Session Reset|Application|
+18246|REXEC Session Terminated|Application|
+18247|REXEC Session Denied|Application|
+18248|REXEC Session In Progress|Application|
+18249|RPC Session Opened|Application|
+18250|RPC Session Closed|Application|
+18251|RPC Session Reset|Application|
+18252|RPC Session Terminated|Application|
+18253|RPC Session Denied|Application|
+18254|RPC Session In Progress|Application|
+18255|NTP Session Opened|Application|
+18256|NTP Session Closed|Application|
+18257|NTP Session Reset|Application|
+18258|NTP Session Terminated|Application|
+18259|NTP Session Denied|Application|
+18260|NTP Session In Progress|Application|
+18261|NNTP Session Opened|Application|
+18262|NNTP Session Closed|Application|
+18263|NNTP Session Reset|Application|
+18264|NNTP Session Terminated|Application|
+18265|NNTP Session Denied|Application|
+18266|NNTP Session In Progress|Application|
+18267|NFS Session Opened|Application|
+18268|NFS Session Closed|Application|
+18269|NFS Session Reset|Application|
+18270|NFS Session Terminated|Application|
+18271|NFS Session Denied|Application|
+18272|NFS Session In Progress|Application|
+18273|NCP Session Opened|Application|
+18274|NCP Session Closed|Application|
+18275|NCP Session Reset|Application|
+18276|NCP Session Terminated|Application|
+18277|NCP Session Denied|Application|
+18278|NCP Session In Progress|Application|
+18279|NetBIOS Session Opened|Application|
+18280|NetBIOS Session Closed|Application|
+18281|NetBIOS Session Reset|Application|
+18282|NetBIOS Session Terminated|Application|
+18283|NetBIOS Session Denied|Application|
+18284|NetBIOS Session In Progress|Application|
+18285|MODBUS Session Opened|Application|
+18286|MODBUS Session Closed|Application|
+18287|MODBUS Session Reset|Application|
+18288|MODBUS Session Terminated|Application|
+18289|MODBUS Session Denied|Application|
+18290|MODBUS Session In Progress|Application|
+18291|LPD Session Opened|Application|
+18292|LPD Session Closed|Application|
+18293|LPD Session Reset|Application|
+18294|LPD Session Terminated|Application|
+18295|LPD Session Denied|Application|
+18296|LPD Session In Progress|Application|
+18297|Lotus Notes Session Opened|Application|
+18298|Lotus Notes Session Closed|Application|
+18299|Lotus Notes Session Reset|Application|
+18300|Lotus Notes Session Terminated|Application|
+18301|Lotus Notes Session Denied|Application|
+18302|Lotus Notes Session In Progress|Application|
+18303|Kerberos Session Opened|Application|
+18304|Kerberos Session Closed|Application|
+18305|Kerberos Session Reset|Application|
+18306|Kerberos Session Terminated|Application|
+18307|Kerberos Session Denied|Application|
+18308|Kerberos Session In Progress|Application|
+18309|IRC Session Opened|Application|
+18310|IRC Session Closed|Application|
+18311|IRC Session Reset|Application|
+18312|IRC Session Terminated|Application|
+18313|IRC Session Denied|Application|
+18314|IRC Session In Progress|Application|
+18315|IEC 104 Session Opened|Application|
+18316|IEC 104 Session Closed|Application|
+18317|IEC 104 Session Reset|Application|
+18318|IEC 104 Session Terminated|Application|
+18319|IEC 104 Session Denied|Application|
+18320|IEC 104 Session In Progress|Application|
+18321|Ident Session Opened|Application|
+18322|Ident Session Closed|Application|
+18323|Ident Session Reset|Application|
+18324|Ident Session Terminated|Application|
+18325|Ident Session Denied|Application|
+18326|Ident Session In Progress|Application|
+18327|ICCP Session Opened|Application|
+18328|ICCP Session Closed|Application|
+18329|ICCP Session Reset|Application|
+18330|ICCP Session Terminated|Application|
+18331|ICCP Session Denied|Application|
+18332|ICCP Session In Progress|Application|
+18333|Groupwise Session Opened|Application|
+18334|Groupwise Session Closed|Application|
+18335|Groupwise Session Reset|Application|
+18336|Groupwise Session Terminated|Application|
+18337|Groupwise Session Denied|Application|
+18338|Groupwise Session In Progress|Application|
+18339|Gopher Session Opened|Application|
+18340|Gopher Session Closed|Application|
+18341|Gopher Session Reset|Application|
+18342|Gopher Session Terminated|Application|
+18343|Gopher Session Denied|Application|
+18344|Gopher Session In Progress|Application|
+18345|GIOP Session Opened|Application|
+18346|GIOP Session Closed|Application|
+18347|GIOP Session Reset|Application|
+18348|GIOP Session Terminated|Application|
+18349|GIOP Session Denied|Application|
+18350|GIOP Session In Progress|Application|
+18351|Finger Session Opened|Application|
+18352|Finger Session Closed|Application|
+18353|Finger Session Reset|Application|
+18354|Finger Session Terminated|Application|
+18355|Finger Session Denied|Application|
+18356|Finger Session In Progress|Application|
+18357|Echo Session Opened|Application|
+18358|Echo Session Closed|Application|
+18359|Echo Session Denied|Application|
+18360|Echo Session In Progress|Application|
+18361|Remote .NET Session Opened|Application|
+18362|Remote .NET Session Closed|Application|
+18363|Remote .NET Session Reset|Application|
+18364|Remote .NET Session Terminated|Application|
+18365|Remote .NET Session Denied|Application|
+18366|Remote .NET Session In Progress|Application|
+18367|DNP3 Session Opened|Application|
+18368|DNP3 Session Closed|Application|
+18369|DNP3 Session Reset|Application|
+18370|DNP3 Session Terminated|Application|
+18371|DNP3 Session Denied|Application|
+18372|DNP3 Session In Progress|Application|
+18373|Discard Session Opened|Application|
+18374|Discard Session Closed|Application|
+18375|Discard Session Reset|Application|
+18376|Discard Session Terminated|Application|
+18377|Discard Session Denied|Application|
+18378|Discard Session In Progress|Application|
+18379|DHCP Session Opened|Application|
+18380|DHCP Session Closed|Application|
+18381|DHCP Session Denied|Application|
+18382|DHCP Session In Progress|Application|
+18383|DHCP Success|Application|
+18384|DHCP Failure|Application|
+18385|CVS Session Opened|Application|
+18386|CVS Session Closed|Application|
+18387|CVS Session Reset|Application|
+18388|CVS Session Terminated|Application|
+18389|CVS Session Denied|Application|
+18390|CVS Session In Progress|Application|
+18391|CUPS Session Opened|Application|
+18392|CUPS Session Closed|Application|
+18393|CUPS Session Reset|Application|
+18394|CUPS Session Terminated|Application|
+18395|CUPS Session Denied|Application|
+18396|CUPS Session In Progress|Application|
+18397|Chargen Session Started|Application|
+18398|Chargen Session Closed|Application|
+18399|Chargen Session Reset|Application|
+18400|Chargen Session Terminated|Application|
+18401|Chargen Session Denied|Application|
+18402|Chargen Session In Progress|Application|
+18403|Misc VPN|Application|
+18404|DAP Session Started|Application|
+18405|DAP Session Ended|Application|
+18406|DAP Session Denied|Application|
+18407|DAP Session Status|Application|
+18408|DAP Session In Progress|Application|
+18409|DAP Authentication Failed|Application|
+18410|DAP Authentication Succeeded|Application|
+18411|TOR Session Started|Application|
+18412|TOR Session Closed|Application|
+18413|TOR Session Reset|Application|
+18414|TOR Session Terminated|Application|
+18415|TOR Session Denied|Application|
+18416|TOR Session In Progress|Application|
+18417|Game Session Started|Application|
+18418|Game Session Closed|Application|
+18419|Game Session Reset|Application|
+18420|Game Session Terminated|Application|
+18421|Game Session Denied|Application|
+18422|Game Session In Progress|Application|
+18423|Authentication (Application)|Application|
+18424|Chat|Application|
+18425|Client Server|Application|
+18426|Content Delivery|Application|
+18427|Data Transfer|Application|
+18428|Data Warehousing|Application|
+18429|Directory Services|Application|
+18430|File Print|Application|
+18431|File Transfer|Application|
+18432|Games|Application|
+18433|Healthcare|Application|
+18434|Inner System|Application|
+18435|Internet Protocol|Application|
+18436|Legacy|Application|
+18437|Mail|Application|
+18438|Misc|Application|
+18439|Multimedia|Application|
+18440|Network Management|Application|
+18441|P2P|Application|
+18442|Remote Access|Application|
+18443|Routing Protocols|Application|
+18444|Security Protocol|Application|
+18445|Streaming|Application|
+18446|Uncommon Protocol|Application|
+18447|VoIP|Application|
+18448|Web|Application|
+18449|ICMP|Application|
+19001|General Audit Event|Audit|
+19002|Built-in Execution|Audit|
+19003|Bulk Copy|Audit|
+19004|Data Dump|Audit|
+19005|Data Import|Audit|
+19006|Data Selection|Audit|
+19007|Data Truncation|Audit|
+19008|Data Update|Audit|
+19009|Procedure/Trigger Execution|Audit|
+19010|Schema Change|Audit|
+19011|Create Activity Attempted|Audit|
+19012|Create Activity Succeeded|Audit|
+19013|Create Activity Failed|Audit|
+19014|Read Activity Attempted|Audit|
+19015|Read Activity Succeeded|Audit|
+19016|Read Activity Failed|Audit|
+19017|Update Activity Attempted|Audit|
+19018|Update Activity Succeeded|Audit|
+19019|Update Activity Failed|Audit|
+19020|Delete Activity Attempted|Audit|
+19021|Delete Activity Succeeded|Audit|
+19022|Delete Activity Failed|Audit|
+19023|Backup Activity Attempted|Audit|
+19024|Backup Activity Succeeded|Audit|
+19025|Backup Activity Failed|Audit|
+19026|Capture Activity Attempted|Audit|
+19027|Capture Activity Succeeded|Audit|
+19028|Capture Activity Failed|Audit|
+19029|Configure Activity Attempted|Audit|
+19030|Configure Activity Succeeded|Audit|
+19031|Configure Activity Failed|Audit|
+19032|Deploy Activity Attempted|Audit|
+19033|Deploy Activity Succeeded|Audit|
+19034|Deploy Activity Failed|Audit|
+19035|Disable Activity Attempted|Audit|
+19036|Disable Activity Succeeded|Audit|
+19037|Disable Activity Failed|Audit|
+19038|Enable Activity Attempted|Audit|
+19039|Enable Activity Succeeded|Audit|
+19040|Enable Activity Failed|Audit|
+19041|Monitor Activity Attempted|Audit|
+19042|Monitor Activity Succeeded|Audit|
+19043|Monitor Activity Failed|Audit|
+19044|Restore Activity Attempted|Audit|
+19045|Restore Activity Succeeded|Audit|
+19046|Restore Activity Failed|Audit|
+19047|Start Activity Attempted|Audit|
+19048|Start Activity Succeeded|Audit|
+19049|Start Activity Failed|Audit|
+19050|Stop Activity Attempted|Audit|
+19051|Stop Activity Succeeded|Audit|
+19052|Stop Activity Failed|Audit|
+19053|Undeploy Activity Attempted|Audit|
+19054|Undeploy Activity Succeeded|Audit|
+19055|Undeploy Activity Failed|Audit|
+19056|Receive Activity Attempted|Audit|
+19057|Receive Activity Succeeded|Audit|
+19058|Receive Activity Failed|Audit|
+19059|Send Activity Attempted|Audit|
+19060|Send Activity Succeeded|Audit|
+19061|Send Activity Failed|Audit|
+19062|Enable Logging Attempted|Audit|
+19063|Enable Logging Success|Audit|
+19064|Enable Logging Failed|Audit|
+19065|Disable Logging Attempted|Audit|
+19066|Disable Logging Success|Audit|
+19067|Disable Logging Failed|Audit|
+20001|Policy Exposure|Risk|
+20002|Compliance Violation|Risk|
+20003|Exposed Vulnerability|Risk|
+20004|Remote Access Vulnerability|Risk|
+20005|Local Access Vulnerability|Risk|
+20006|Open Wireless Access|Risk|
+20007|Weak Encryption|Risk|
+20008|Un-Encrypted Data Transfer|Risk|
+20009|Un-Encrypted Data Store|Risk|
+20010|Mis-Configured Rule|Risk|
+20011|Mis-Configured Device|Risk|
+20012|Mis-Configured Host|Risk|
+20013|Data Loss Possible|Risk|
+20014|Weak Authentication|Risk|
+20015|No Password|Risk|
+20016|Fraud|Risk|
+20017|Possible DoS Target|Risk|
+20018|Possible DoS Weakness|Risk|
+20019|Loss of Confidentiality|Risk|
+20020|Policy Monitor Risk Score Accumulation|Risk|
+21001|Policy Monitor|Risk Manager Audit|
+21002|Topology|Risk Manager Audit|
+21003|Simulations|Risk Manager Audit|
+21004|Administration|Risk Manager Audit|
+22001|Device Read|Control System|
+22002|Device Communication|Control System|
+22003|Device Audit|Control System|
+22004|Device Event|Control System|
+22005|Device Ping|Control System|
+22006|Device Configuration|Control System|
+22007|Device Registration|Control System|
+22008|Device Route|Control System|
+22009|Device Import|Control System|
+22010|Device Information|Control System|
+22011|Device Warning|Control System|
+22012|Device Error|Control System|
+22013|Relay Event|Control System|
+22014|NIC Event|Control System|
+22015|UIQ Event|Control System|
+22016|IMU Event|Control System|
+22017|Billing Event|Control System|
+22018|DBMS Event|Control System|
+22019|Import Event|Control System|
+22020|Location Import|Control System|
+22021|Route Import|Control System|
+22022|Export Event|Control System|
+22023|Remote Signalling|Control System|
+22024|Gateway Status|Control System|
+22025|Job Event|Control System|
+22026|Security Event|Control System|
+22027|Device Tamper Detection|Control System|
+22028|Time Event|Control System|
+22029|Suspicious Behavior|Control System|
+22030|Power Outage|Control System|
+22031|Power Restoration|Control System|
+22032|Heartbeat|Control System|
+22033|Remote Connection Event|Control System|
+23001|Asset Created|Asset Profiler|
+23002|Asset Updated|Asset Profiler|
+23003|Asset Observed|Asset Profiler|
+23004|Asset Moved|Asset Profiler|
+23005|Asset Deleted|Asset Profiler|
+23006|Asset Hostname Cleaned|Asset Profiler|
+23007|Asset Hostname Created|Asset Profiler|
+23008|Asset Hostname Updated|Asset Profiler|
+23009|Asset Hostname Observed|Asset Profiler|
+23010|Asset Hostname Moved|Asset Profiler|
+23011|Asset Hostname Deleted|Asset Profiler|
+23012|Asset Port Cleaned|Asset Profiler|
+23013|Asset Port Created|Asset Profiler|
+23014|Asset Port Updated|Asset Profiler|
+23015|Asset Port Observed|Asset Profiler|
+23016|Asset Port Moved|Asset Profiler|
+23017|Asset Port Deleted|Asset Profiler|
+23018|Asset Vuln Instance Cleaned|Asset Profiler|
+23019|Asset Vuln Instance Created|Asset Profiler|
+23020|Asset Vuln Instance Updated|Asset Profiler|
+23021|Asset Vuln Instance Observed|Asset Profiler|
+23022|Asset Vuln Instance Moved|Asset Profiler|
+23023|Asset Vuln Instance Deleted|Asset Profiler|
+23024|Asset OS Cleaned|Asset Profiler|
+23025|Asset OS Created|Asset Profiler|
+23026|Asset OS Updated|Asset Profiler|
+23027|Asset OS Observed|Asset Profiler|
+23028|Asset OS Moved|Asset Profiler|
+23029|Asset OS Deleted|Asset Profiler|
+23030|Asset Property Cleaned|Asset Profiler|
+23031|Asset Property Created|Asset Profiler|
+23032|Asset Property Updated|Asset Profiler|
+23033|Asset Property Observed|Asset Profiler|
+23034|Asset Property Moved|Asset Profiler|
+23035|Asset Property Deleted|Asset Profiler|
+23036|Asset IP Address Cleaned|Asset Profiler|
+23037|Asset IP Address Created|Asset Profiler|
+23038|Asset IP Address Updated|Asset Profiler|
+23039|Asset IP Address Observed|Asset Profiler|
+23040|Asset IP Address Moved|Asset Profiler|
+23041|Asset IP Address Deleted|Asset Profiler|
+23042|Asset Interface Cleaned|Asset Profiler|
+23043|Asset Interface Created|Asset Profiler|
+23044|Asset Interface Updated|Asset Profiler|
+23045|Asset Interface Observed|Asset Profiler|
+23046|Asset Interface Moved|Asset Profiler|
+23047|Asset Interface Merged|Asset Profiler|
+23048|Asset Interface Deleted|Asset Profiler|
+23049|Asset User Cleaned|Asset Profiler|
+23050|Asset User Observed|Asset Profiler|
+23051|Asset User Moved|Asset Profiler|
+23052|Asset User Deleted|Asset Profiler|
+23053|Asset Scanned Policy Cleaned|Asset Profiler|
+23054|Asset Scanned Policy Observed|Asset Profiler|
+23055|Asset Scanned Policy Moved|Asset Profiler|
+23056|Asset Scanned Policy Deleted|Asset Profiler|
+23057|Asset Windows Application Cleaned|Asset Profiler|
+23058|Asset Windows Application Observed|Asset Profiler|
+23059|Asset Windows Application Moved|Asset Profiler|
+23060|Asset Windows Application Deleted|Asset Profiler|
+23061|Asset Scanned Service Cleaned|Asset Profiler|
+23062|Asset Scanned Service Observed|Asset Profiler|
+23063|Asset Scanned Service Moved|Asset Profiler|
+23064|Asset Scanned Service Deleted|Asset Profiler|
+23065|Asset Windows Patch Cleaned|Asset Profiler|
+23066|Asset Windows Patch Observed|Asset Profiler|
+23067|Asset Windows Patch Moved|Asset Profiler|
+23068|Asset Windows Patch Deleted|Asset Profiler|
+23069|Asset UNIX Patch Cleaned|Asset Profiler|
+23070|Asset UNIX Patch Observed|Asset Profiler|
+23071|Asset UNIX Patch Moved|Asset Profiler|
+23072|Asset UNIX Patch Deleted|Asset Profiler|
+23073|Asset Patch Scan Cleaned|Asset Profiler|
+23074|Asset Patch Scan Created|Asset Profiler|
+23075|Asset Patch Scan Moved|Asset Profiler|
+23076|Asset Patch Scan Deleted|Asset Profiler|
+23077|Asset Port Scan Cleaned|Asset Profiler|
+23078|Asset Port Scan Created|Asset Profiler|
+23079|Asset Port Scan Moved|Asset Profiler|
+23080|Asset Port Scan Deleted|Asset Profiler|
+23081|Asset Client Application Cleaned|Asset Profiler|
+23082|Asset Client Application Observed|Asset Profiler|
+23083|Asset Client Application Moved|Asset Profiler|
+23084|Asset Client Application Deleted|Asset Profiler|
+23085|Asset Patch Scan Observed|Asset Profiler|
+23086|Asset Port Scan Observed|Asset Profiler|
+23087|NetBIOS Group Created|Asset Profiler|
+23088|NetBIOS Group Updated|Asset Profiler|
+23089|NetBIOS Group Observed|Asset Profiler|
+23090|NetBIOS Group Deleted|Asset Profiler|
+23091|NetBIOS Group Cleaned|Asset Profiler|
+23092|NetBIOS Group Moved|Asset Profiler|
+23093|Asset Deviation Report|Asset Profiler|
+24001|User Behavior|Sense|
+24002|User Geography|Sense|
+24003|User Time|Sense|
+24004|User Access|Sense|
+24005|User Privilege|Sense|
+24006|User Risk|Sense|
+24007|Sense Offense|Sense|
+24008|Resource Risk|Sense|
+24009|UBA Machine Learning Anomaly|Sense|
+
+
+
+
