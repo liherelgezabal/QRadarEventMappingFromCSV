@@ -1,7 +1,7 @@
 # QRadarEventMappingFromCSV
 QRadar scripts to import event mappings from a CSV file
 
-This is an unsupported script. Use it at your own risk and test it in a non-production environment
+This is an unsupported demo script. Use it at your own risk and test it in a non-production environment
 
 Usage:
 
